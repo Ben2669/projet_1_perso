@@ -2,7 +2,7 @@
 <html lang="en">
 <html>
   <head>
-  <title>Lion's King</title>
+  <title>Street Fighter 2</title>
   <meta lang="en">
   <meta name="title" content="Retro Invaders">
   <meta charset="UTF-8">
@@ -25,59 +25,33 @@
             </div>
             <nav class="mobile-nav">
                     <ul>
-                        <a href="plateformes.html"><li>Platforms</li></a>
-                        <a href="about_us.html"><li>About Us</li></a>
-                        <a href="contact.html"><li>Contact</li></a>
+                        <a href="plateformes.php"><li>Platforms</li></a>
+                        <a href="about_us.php"><li>About Us</li></a>
+                        <a href="contact.php"><li>Contact</li></a>
                     </ul>
             </nav>
 
         </div>
 
-  <header>
-        <section class="logo">
-            <a href="index.php">
-                <img class ="logo_smartphone" alt="logo_retro_invaders_smartphone" src="Images/Autres/blog-loco-green.png" height="110" width="auto">
-                <div class="logo-header"></div>
-            </a>
-
-        </section>
-
-        <section class="menu_burger_container">
-            <article id="burger-menu-click" class="menu_burger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-
-            </article>
-        </section>
-
-        <nav>
-            <ul>
-                <li><a href="plateformes.html">Platforms</a></li>
-                <li><a href="about_us.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-
-    </header>
+  <?php include("_header.php"); ?>
 
   <main>
         <!--name of the game-->
-        <h1 class="product-game-title"><a href="index.php" title="Home">Home/</a><a href="super-nintendo.html" title="Nintendo-SNES">Nintendo-SNES/</a>Disney Lion's King</h1>
+        <h1 class="product-game-title"><a href="index.php" title="Home">Home/</a><a href="super-nintendo.php" title="Nintendo-SNES">Nintendo-SNES/</a>Street Fighter 2</h1>
         <hr>
         <div class="product-img-and-description">
           <!--game picture-->
           <div class="product-img-container">
             <div class="product-image-cotation-bloc">
-                <img src="Images/games/snes/Lion+King,+The+(USA)-image.jpg" class="game-image" alt="Lion's King">
-                <span class="product-cotation-box">+0%</span>
+                <img src="Images/games/snes/SF2_JPN_flyer.jpg" class="game-image" alt="Street Fighter 2">
+                <span class="product-cotation-box">+13%</span>
             </div>  
         </div>
           <!--info section (global)-->
           <div class="product-description-container">
             <!--game description-->
             <div class="product-game-description">
-              <p>The Lion King is a side-scrolling platform game in which players control the protagonist, Simba, through the events of the film, going through both child and adult forms as the game progresses.</p>
+              <p>Street Fighter II: The World Warrior[a] is a competitive fighting game developed by Capcom and originally released for arcade systems in 1991.</p>
             </div>
             <!--info about platform, year, platform & price-->
             <div class="product-platform-price-container">
@@ -85,16 +59,16 @@
                 <h3>Platform: </h3>
                 <p>SNES</p>
                 <h3>Years: </h3>
-                <p>1994</p>
+                <p>1991</p>
               </div>
               <div class="product-cotation-price">
                 <h3>Prices: </h3>
-                <p>15€ (Loose)</p>
-                <p>23€ (In box)</p>
-                <p>50€ (Complet in box)</p>
+                <p>21€ (Loose)</p>
+                <p>136€ (Complet in box)</p>
+                <p>189€ (Mint)</p>
                 <div class="product-cotation-mobile">
                     <h3>Cotation: </h3>
-                    <p class="cotation-positiv">+0%</p>
+                    <p class="cotation-positiv">+13%</p>
                 </div>
               </div>
             </div>
@@ -110,17 +84,17 @@
           <!--video section-->
           <div class="product-video-container">
             <h3>Watch a lets play!</h3>
-            <iframe class="product-video" src="https://www.youtube.com/embed/wpUNh557FnA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="product-video" src="https://www.youtube.com/embed/UyRex_mgbxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <!--link section-->
           <div class="product-link-container">
             <h3>Buy one online:</h3>
             <label>Loose</label>
-            <a href="https://www.ebay.fr/itm/Jeu-LE-ROI-LION-Disney-pour-Super-Nintendo-SNES-version-PAL/153859846678?hash=item23d2c2f216:g:HrMAAOSw4i5eZ6Lg">[Ebay] Jeu LE ROI LION (Disney) pour Super Nintendo SNES version PAL (loose)</a>
+            <a href="https://www.ebay.fr/itm/STREET-FIGHTER-II-2-SUPER-NINTENDO-Jeu-SUPER-NES-SNES-version-PAL-FAH/253040366760?hash=item3aea6194a8:g:N34AAOSwy3NZZPfT">[Ebay] STREET FIGHTER II 2 - SUPER NINTENDO - Jeu SUPER NES SNES version PAL FAH (loose)</a>
             <label>In box</label>
-            <a href="https://www.ebay.fr/itm/Disneys-The-Lion-King-For-Super-Nintendo-SNES-Boxed-No-manual-PAL/293423722822?hash=item44516ab146:g:dPYAAOSwmU9eHaoS">[Ebay] Disney's Le Roi Lion pour Super Nintendo/SNES boxed (no manual) PAL</a>
+            <a href="https://www.ebay.fr/itm/Super-Street-Fighter-II-2-Nintendo-Super-NES-SNES-Pal/263696813843?hash=item3d658e0f13:g:X8IAAOSwgSta~sOi">[Ebay] Super Street Fighter II 2 Nintendo Super NES SNES Pal</a>
             <label>Complet in box</label>
-            <a href="https://www.ebay.fr/itm/Super-Nintendo-Le-Roi-Lion-PAL-FAH-SNES-Super-NES-JRF/233491319975?hash=item365d2acca7:g:ErYAAOSwQY9eQYJb">[Ebay] Super Nintendo Le Roi Lion [PAL-FAH] SNES Super NES *JRF*</a>
+            <a href="https://www.ebay.fr/itm/Jeu-super-nintendo-street-fighter-2-fah-pal-snes-excellent-etat-MINT/202917926082?hash=item2f3ed9d4c2:g:37oAAOSwunNeNxOo">[Ebay] Jeu super nintendo street fighter 2 fah pal snes excellent état MINT</a>
           </div>
         </div>
         
@@ -128,17 +102,17 @@
       <footer>
         <section class="items">
             <article class="hidden">
-                <a href="plateformes.html">
+                <a href="plateformes.php">
                     <div>Platforms</div>
                 </a>
             </article>
             <article class="hidden">
-                <a href="produits.html">
+                <a href="produits.php">
                     <div>Products</div>
                 </a>
             </article>
             <article class="hidden">
-                <a href="about_us.html">
+                <a href="about_us.php">
                     <div>About Us</div>
                 </a>
             </article>
@@ -150,7 +124,7 @@
                 </a>
             </article>
             <article class="hidden">
-                <a href="contact.html">
+                <a href="contact.php">
                     <div>Contact</div>
                 </a>
             </article>

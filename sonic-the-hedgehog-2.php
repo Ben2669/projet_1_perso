@@ -2,7 +2,7 @@
 <html lang="en">
 <html>
   <head>
-  <title>Super Mario 64</title>
+  <title>Sonic The Hedgehog 2</title>
   <meta lang="en">
   <meta name="title" content="Retro Invaders">
   <meta charset="UTF-8">
@@ -25,76 +25,50 @@
             </div>
             <nav class="mobile-nav">
                     <ul>
-                        <a href="plateformes.html"><li>Platforms</li></a>
-                        <a href="about_us.html"><li>About Us</li></a>
-                        <a href="contact.html"><li>Contact</li></a>
+                        <a href="plateformes.php"><li>Platforms</li></a>
+                        <a href="about_us.php"><li>About Us</li></a>
+                        <a href="contact.php"><li>Contact</li></a>
                     </ul>
             </nav>
 
         </div>
 
-  <header>
-        <section class="logo">
-            <a href="index.php">
-                <img class ="logo_smartphone" alt="logo_retro_invaders_smartphone" src="Images/Autres/blog-loco-green.png" height="110" width="auto">
-                <div class="logo-header"></div>
-            </a>
-
-        </section>
-
-        <section class="menu_burger_container">
-            <article id="burger-menu-click" class="menu_burger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-
-            </article>
-        </section>
-
-        <nav>
-            <ul>
-                <li><a href="plateformes.html">Platforms</a></li>
-                <li><a href="about_us.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-
-    </header>
+  <?php include("_header.php"); ?>
 
   <main>
         <!--name of the game-->
-        <h1 class="product-game-title"><a href="index.php" title="Home">Home/</a><a href="nintend-64.html" title="nintendo 64">Nintendo 64/</a>Super Mario 64</h1>
+        <h1 class="product-game-title"><a href="index.php" title="Home">Home/</a><a href="genesis.php" title="Sega-Genesis">Sega-Genesis/</a>Sonic The Hedgehog 2</h1>
         <hr>
         <div class="product-img-and-description">
           <!--game picture-->
           <div class="product-img-container">
             <div class="product-image-cotation-bloc">
-                <img src="Images/games/N64/Super_Mario_64_box_cover.jpg" class="game-image" alt="Super Mario 64">
-                <span class="product-cotation-box">+8%</span>
+                <img src="Images/games/sega-genesis/Sonic2_European_Box.jpg" class="game-image" alt="Sonic the hedgehog 2">
+                <span class="product-cotation-box">+0%</span>
             </div>  
         </div>
           <!--info section (global)-->
           <div class="product-description-container">
             <!--game description-->
             <div class="product-game-description">
-              <p>Super Mario 64 is a 3D platformer in which the player controls Mario through several courses. Each course is an enclosed world in which the player is free to wander in all directions and discover the environment without time limits.</p>
+              <p>Sonic the Hedgehog 2 is a 2D side-scrolling platform game. The game stars Sonic the Hedgehog and his sidekick, Miles "Tails" Prower, who is described as having idolized Sonic as a child and wanting to keep up with him. ... A second player can join in at any time and control Tails separately.</p>
             </div>
             <!--info about platform, year, platform & price-->
             <div class="product-platform-price-container">
               <div class="product-platform-years">
                 <h3>Platform: </h3>
-                <p>Nintendo 64</p>
+                <p>Sega Genesis</p>
                 <h3>Years: </h3>
-                <p>1997</p>
+                <p>1992</p>
               </div>
               <div class="product-cotation-price">
                 <h3>Prices: </h3>
-                <p>12€ (Loose)</p>
-                <p>44€ (In box)</p>
-                <p>95€ (Complet in box)</p>
+                <p>10€ (Loose)</p>
+                <p>12€ (In box)</p>
+                <p>18€ (Complet in box)</p>
                 <div class="product-cotation-mobile">
                     <h3>Cotation: </h3>
-                    <p class="cotation-positiv">+8%</p>
+                    <p class="cotation-positiv">+0%</p>
                 </div>
               </div>
             </div>
@@ -110,17 +84,17 @@
           <!--video section-->
           <div class="product-video-container">
             <h3>Watch a lets play!</h3>
-            <iframe class="product-video" src="https://www.youtube.com/embed/XnqGFn0Byg4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="product-video" src="https://www.youtube.com/embed/8cr1rqVcIhA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <!--link section-->
           <div class="product-link-container">
             <h3>Buy one online:</h3>
             <label>Loose</label>
-            <a href="https://www.ebay.fr/itm/Jeu-Nintendo-64-Super-Mario-64/193347358128?hash=item2d04668db0:g:O2cAAOSw7QdeWElz">[Ebay] Jeu Nintendo 64 Super Mario 64 (loose)</a>
+            <a href="https://www.ebay.fr/itm/SEGA-Mega-Drive-Sonic-The-Hedgehog-2-PAL/162719375616?hash=item25e2d4a100:g:jS4AAOSwteRdtTec">[Ebay] SEGA Mega Drive - Sonic The Hedgehog 2 - PAL (loose)</a>
             <label>In box</label>
-            <a href="https://www.ebay.fr/itm/SUPER-MARIO-64-NINTENDO-64-N64-PAL-EUR-FR/293497506701?hash=item4455d08b8d:g:HEgAAOSwSWZeXDCC">[Ebay] SUPER MARIO 64 NINTENDO 64 N64 PAL EUR FR 🌟</a>
+            <a href="https://www.ebay.fr/itm/SONIC-THE-HEDGEHOG-2-COMPLET-BOITE-NOTICE-SEGA-MEGADRIVE-PAL-EURO-JEU/264559573929?hash=item3d98fabba9:g:W7IAAOSwihtd69xP">[Ebay] SONIC THE HEDGEHOG 2 COMPLET BOÎTE NOTICE SEGA MEGADRIVE PAL EURO JEU</a>
             <label>Complet in box</label>
-            <a href="https://www.ebay.fr/itm/SUPER-MARIO-64-PAL-NINTENDO-64/163935685785?hash=item262b540c99:g:8dUAAOSwzjddxTG7">[Ebay] SUPER MARIO 64 - PAL - NINTENDO 64</a>
+            <a href="https://www.ebay.fr/itm/SONIC-THE-HEDGEHOG-2-SEGA-MEGA-DRIVE-MEGADRIVE-COMPLET-PAL/153811770121?hash=item23cfe55b09:g:QAcAAOSwkfReLyBs">[Ebay] SONIC THE HEDGEHOG 2 SEGA MEGA DRIVE MEGADRIVE COMPLET PAL</a>
           </div>
         </div>
         
@@ -128,17 +102,17 @@
       <footer>
         <section class="items">
             <article class="hidden">
-                <a href="plateformes.html">
+                <a href="plateformes.php">
                     <div>Platforms</div>
                 </a>
             </article>
             <article class="hidden">
-                <a href="produits.html">
+                <a href="produits.php">
                     <div>Products</div>
                 </a>
             </article>
             <article class="hidden">
-                <a href="about_us.html">
+                <a href="about_us.php">
                     <div>About Us</div>
                 </a>
             </article>
@@ -150,7 +124,7 @@
                 </a>
             </article>
             <article class="hidden">
-                <a href="contact.html">
+                <a href="contact.php">
                     <div>Contact</div>
                 </a>
             </article>

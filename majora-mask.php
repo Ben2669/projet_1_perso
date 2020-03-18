@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <html>
-  <head>
-  <title>Aladdin</title>
+<head>
+  <title>Retro Invader</title>
   <meta lang="en">
   <meta name="title" content="Retro Invaders">
   <meta charset="UTF-8">
@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" type="text/css" href="produits_style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900|Roboto:300,400,700,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="header_style.css" />
   <link rel="stylesheet" type="text/css" href="footer_style.css" />
@@ -18,6 +18,9 @@
   <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
   <link rel='stylesheet' id='thb-self-hosted-1-css' href="gilroy/gilroy.css">
 </head>
+
+<body>
+
   <div id="nav-mobile-container" class="nav-mobile-full no-content">
             <div class="close-menu-mobile no-content">
                 <span class="bar"></span>
@@ -25,76 +28,50 @@
             </div>
             <nav class="mobile-nav">
                     <ul>
-                        <a href="plateformes.html"><li>Platforms</li></a>
-                        <a href="about_us.html"><li>About Us</li></a>
-                        <a href="contact.html"><li>Contact</li></a>
+                        <a href="plateformes.php"><li>Platforms</li></a>
+                        <a href="about_us.php"><li>About Us</li></a>
+                        <a href="contact.php"><li>Contact</li></a>
                     </ul>
             </nav>
 
         </div>
 
-  <header>
-        <section class="logo">
-            <a href="index.php">
-                <img class ="logo_smartphone" alt="logo_retro_invaders_smartphone" src="Images/Autres/blog-loco-green.png" height="110" width="auto">
-                <div class="logo-header"></div>
-            </a>
-
-        </section>
-
-        <section class="menu_burger_container">
-            <article id="burger-menu-click" class="menu_burger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-
-            </article>
-        </section>
-
-        <nav>
-            <ul>
-                <li><a href="plateformes.html">Platforms</a></li>
-                <li><a href="about_us.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-
-    </header>
+  <?php include("_header.php"); ?>
 
   <main>
         <!--name of the game-->
-        <h1 class="product-game-title"><a href="index.php" title="Home">Home/</a><a href="super-nintendo.html" title="Nintendo-SNES">Nintendo-SNES/</a>Alladin</h1>
+        <h1 class="product-game-title"><a href="index.php" title="Home">Home/</a><a href="nintendo-64.php" title="Nintendo-64">Nintendo-64/</a>Zelda Majora's Mask</h1>
         <hr>
         <div class="product-img-and-description">
           <!--game picture-->
           <div class="product-img-container">
             <div class="product-image-cotation-bloc">
-                <img src="Images/games/snes/Disney's_Aladdin_(SNES)_cover_art.jpg" class="game-image" alt="Aladdin">
-                <span class="product-cotation-box">+0%</span>
-            </div>  
-        </div>
+              <img src="Images/games/N64/The_Legend_of_Zelda_-_Majora's_Mask_Box_Art.jpg" class="game-image" alt="Zelda Majora's Mask">
+              <span class="product-cotation-box">-15%</span>
+            </div>
+          </div>
           <!--info section (global)-->
           <div class="product-description-container">
             <!--game description-->
             <div class="product-game-description">
-              <p>Disney's Aladdin (アラジン, Arajin) is a 1993 platformer video game developed and published by Capcom for the Super Nintendo Entertainment System, based on the 1992 animated Disney film of the same name. Disney's Aladdin is a 2D side-scrolling video game in which the player controls Aladdin and his monkey Abu.</p>
+              <p>The Legend of Zelda: Majora's Mask is an action-adventure game developed and published by Nintendo for the Nintendo 64. It was released in 2000 as the sixth main installment in The Legend of Zelda series and was the second to use 3D graphics, following 1998's The Legend of Zelda: Ocarina of Time.</p>
             </div>
             <!--info about platform, year, platform & price-->
             <div class="product-platform-price-container">
               <div class="product-platform-years">
                 <h3>Platform: </h3>
-                <p>SNES</p>
+                <p>Nintendo 64</p>
                 <h3>Years: </h3>
-                <p>1993</p>
+                <p>2000</p>
               </div>
               <div class="product-cotation-price">
                 <h3>Prices: </h3>
-                <p>20€ (Loose)</p>
-                <p>35€ (In box)</p>
-                <p>50€ (Complet in box)</p>
+                <p>39€ (Loose)</p>
+                <p>140€ (In box)</p>
+                <p>999€ (Complet in box)</p>
                 <div class="product-cotation-mobile">
-                    <h3>Cotation: </h3>
-                    <p class="cotation-positiv">+0%</p>
+                  <h3>Cotation: </h3>
+                  <p class="cotation-negativ">-15%</p>
                 </div>
               </div>
             </div>
@@ -110,35 +87,34 @@
           <!--video section-->
           <div class="product-video-container">
             <h3>Watch a lets play!</h3>
-            <iframe class="product-video" src="https://www.youtube.com/embed/_inY8qT5UT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="product-video" src="https://www.youtube.com/embed/r_GJNdAdMtc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <!--link section-->
           <div class="product-link-container">
             <h3>Buy one online:</h3>
             <label>Loose</label>
-            <a href="https://www.ebay.fr/itm/Jeu-ALADDIN-pour-Super-Nintendo-SNES-version-PAL/164070137423?_trkparms=ispr%3D1&hash=item2633579e4f:g:c2UAAOSwT6lePFCx&enc=AQAEAAACQBPxNw%2BVj6nta7CKEs3N0qVuO0sh1MDab5c3%2BjTr9nZxy7MX%2FgB8nPSEnBsQT1HIg5woktiB09F4FkicrR33QEanc8ubHUTYiT5MLQv6YCIlXf1J0HZZg%2BNtrrPJMZzUWfgp%2BIAL1Mmjl91JUFZhhYfdrqyHTNsgJEwIpHeaNVXjYwzp5Ty6XHXLBClp11gn%2FMHHWt1sHbGOl6KyLxcRZ2XgBBRVmJV5vnpoRafnXh4gp%2BsWXxvZDfYLcIWeOjJD4UhXS4wpcsqRyQodi5dR2QRTwbxAta2PSbAiuY8kcVcup%2BaQzvxHuLIk7DcmKU26er3NppwUbbzMD2TGdJCb8BCzk8bPn88JvOIBVdAN9VEY8auJWrPjTJyr09N%2B3vzvJr8ERDdcGVwuBla%2BA8nk1oLIPQo7FSctDOncD8WZuOHeAlqItYHVkdtDNQ4E86qbRKsNrjRBU2zsvLJ4QnEaLM0%2BJBbFoM2dr%2FGjk1esLL7sYmCm5vvRF%2FwSNQk4XlcTBDbkDXGi7Z6HYw7czxMf%2BTiBrqeH9xbbBfwwrxQaS8F5UxawuMkl6fi%2FALD0oAOZ5j0LXrqu8UnoH9n%2FN9wjjV670z8o5PZT0ueFtVuR5rGiwDbNTVMHSEVp6PQ%2B04EiKfOkd1OEEieTc%2FQ5mqNsV0qv0h8tqI4YL59h3WehGwUpeEbTm44n4bfb6I5yLiLvCPpoGjEiiNgiO4IRxlu%2FTKlMh%2BXDetqAlxroOZlRs%2BYp4xV5Q43simx%2BsN43YJcBlw%3D%3D&checksum=1640701374234cba9a8d08bb4f1fab1234081103fcfc">[Ebay] Jeu ALADDIN pour Super Nintendo SNES version PAL (loose)</a>
-            <label>In box</label>
-            <a href="https://www.ebay.fr/itm/Snes-Super-Nintendo-Aladdin-Pal-Video-Game-No-Instructions/173970892639?hash=item288179275f:g:FegAAOSw4wRdMwWP">[Ebay] SNES Super Nintendo Aladdin PAL jeu vidéo sans instructions</a>
+            <a href="https://www.ebay.fr/itm/The-legend-of-ZELDA-MAJORAS-MASK-jeu-nintendo-64-en-tres-bon-etat/264653839220?hash=item3d9e991b74:g:H~YAAOSwq~9eXSL5">The legend of ZELDA MAJORA'S MASK  , jeu nintendo 64 en très bon état</a>
             <label>Complet in box</label>
-            <a href="https://www.ebay.fr/itm/Aladdin-FRA-PAL-Super-nintendo-SNES/324098028314?hash=item4b75bf731a:g:JmkAAOSwOlBeZlDf">[Ebay] Aladdin - FRA - PAL - Super nintendo SNES</a>
+            <a href="https://www.ebay.fr/itm/Zelda-majoras-mask-Nintendo-64-comme-neuf-Near-Mint-Version-Pal-Eur/283811523393?hash=item42147c2b41:g:KuEAAOSwjVReaO4u">Zelda majora's mask Nintendo 64 comme neuf Near Mint Version Pal Eur</a>
+            <label>Mint</label>
+            <a href="https://www.ebay.fr/itm/Nintendo-64-ZELDA-MAJORAS-MASK-NEUF-NEW-SOUS-BLISTER-PAL-EUR/254249301955?hash=item3b327077c3:g:dW4AAOSw-3FZCvtB">Nintendo 64: ZELDA MAJORA'S MASK- NEUF/NEW SOUS BLISTER PAL EUR</a>
           </div>
         </div>
         
-      <!--footer section-->
       <footer>
         <section class="items">
             <article class="hidden">
-                <a href="plateformes.html">
+                <a href="plateformes.php">
                     <div>Platforms</div>
                 </a>
             </article>
             <article class="hidden">
-                <a href="produits.html">
+                <a href="produits.php">
                     <div>Products</div>
                 </a>
             </article>
             <article class="hidden">
-                <a href="about_us.html">
+                <a href="about_us.php">
                     <div>About Us</div>
                 </a>
             </article>
@@ -150,23 +126,27 @@
                 </a>
             </article>
             <article class="hidden">
-                <a href="contact.html">
+                <a href="contact.php">
                     <div>Contact</div>
                 </a>
             </article>
             <article>
+              <a href="#">
                 <div>FAQ</div>
+            </a>
             </article>
 
             <article>
+              <a href="#">
                 <div>Legal Mentions</div>
+            </a>
             </article>
         </section>
 
         <section class="logo-rs-footer-container">
             <article>
                 <a href="https://www.instagram.com/?hl=fr">
-                   <img alt="logo_instagram" src="Images/Autres/instagram-green.png" height="40" width="auto">
+                   <img class="logo_instagram" alt="logo_instagram" src="Images/Autres/instagram-green.png" height="40" width="auto">
                 </a>
             </article>
             
@@ -190,9 +170,9 @@
 
         </section>
     </footer>
-  </main>
-
-  <script type="text/javascript">
+</main>
+        
+        <script type="text/javascript">
         jQuery(function(){
           var div = jQuery("#burger-menu-click"), div = jQuery("#nav-mobile-container"), div = jQuery(".close-menu-mobile");
           jQuery("#burger-menu-click").click(function(){

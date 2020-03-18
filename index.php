@@ -27,9 +27,9 @@
             </div>
             <nav class="mobile-nav">
                     <ul>
-                        <a href="plateformes.html"><li>Platforms</li></a>
-                        <a href="about_us.html"><li>About Us</li></a>
-                        <a href="contact.html"><li>Contact</li></a>
+                        <a href="plateformes.php"><li>Platforms</li></a>
+                        <a href="about_us.php"><li>About Us</li></a>
+                        <a href="contact.php"><li>Contact</li></a>
                     </ul>
             </nav>
 
@@ -64,7 +64,7 @@
 						<span class="release-date">1993</span>
 					</div>
 					<p>Nintendo created platform games and got it at its best with Super Mario Bros. 2. Experience now one of the best platformers ever created!</p>
-					<a href="super-mario-bros.html" class="button">MORE INFO</a>
+					<a href="super-mario-bros.php" class="button">MORE INFO</a>
 				</div>
 			</section>
 
@@ -77,7 +77,7 @@
 						<span class="release-date">1992</span>
 					</div>
 					<p>Ryu, CHun-Li, M. Bison... choose your favorite street fighter and battleyour friend!</p>
-					<a href="street-fighter-2.html" class="button">MORE INFO</a>
+					<a href="street-fighter-2.php" class="button">MORE INFO</a>
 				</div>
 			</section>
 
@@ -92,7 +92,7 @@
 						<span class="release-date">1992</span>
 					</div>
 					<p>With Sonic the Hedgehog, Sega became a real concurrent to Nintendo’s Mario.</p>
-					<a href="sonic-the-hedgehog-2.html" class="button">MORE INFO</a>
+					<a href="sonic-the-hedgehog-2.php" class="button">MORE INFO</a>
 				</div>
 			</section>
 
@@ -106,42 +106,42 @@
 
 			<div class="products-container-homepage">
 
-				<a href="genesis.html">
+				<a href="genesis.php">
 					<div class="platform-container sega-megadrive">
 						<span class="number-of-games">2 JEUX</span>
 						<h3>Sega Genesis</h3>
 					</div>
 				</a>
 
-				<a href="nes-classic.html">	
+				<a href="nes-classic.php">
 					<div class="platform-container nes-classic">
 						<span class="number-of-games">1 JEUX</span>
 						<h3>NES Classic</h3>
 					</div>
 				</a>
 
-				<a href="dreamcast.html">
+				<a href="dreamcast.php">
 					<div class="platform-container dreamcast">
 						<span class="number-of-games">1 JEUX</span>
 						<h3>Dreamcast</h3>
 					</div>
 				</a>
 
-				<a href="nintendo-64.html">
+				<a href="nintendo-64.php">
 					<div class="platform-container nintendo-64">
 						<span class="number-of-games">3 JEUX</span>
 						<h3>Nintendo 64</h3>
 					</div>
 				</a>
 
-				<a href="arcade.html">
+				<a href="arcade.php">
 					<div class="platform-container arcade">
 						<span class="number-of-games">2 JEUX</span>
 						<h3>Arcade</h3>
 					</div>
 				</a>
 
-				<a href="super-nintendo.html">
+				<a href="super-nintendo.php">
 					<div class="platform-container super-nintendo">
 						<span class="number-of-games">4 JEUX</span>
 						<h3>Super Nintendo</h3>
@@ -149,7 +149,7 @@
 				</a>
 			</div>
 
-				<a href="plateformes.html" class="button">SEE ALL</a>
+				<a href="plateformes.php" class="button">SEE ALL</a>
 
 		</section>
 
@@ -158,7 +158,7 @@
 			<div class="about-us-homepage-content-container">
 				<h2>Let's meet</h2>
 				<p>Video game is our passion since we were kids and we love to share it.</p>
-				<a href="about_us.html" class="button pink-button">KNOW MORE</a>
+				<a href="about_us.php" class="button pink-button">KNOW MORE</a>
 			</div>
 
 		</section>
@@ -181,7 +181,7 @@
 		<footer>
         <section class="items">
             <article class="hidden">
-                <a href="plateformes.html">
+                <a href="plateformes.php">
                     <div>Platforms</div>
                 </a>
             </article>
@@ -191,7 +191,7 @@
                 </a>
             </article>
             <article class="hidden">
-                <a href="about_us.html">
+                <a href="about_us.php">
                     <div>About Us</div>
                 </a>
             </article>
@@ -203,7 +203,7 @@
                 </a>
             </article>
             <article class="hidden">
-                <a href="contact.html">
+                <a href="contact.php">
                     <div>Contact</div>
                 </a>
             </article>

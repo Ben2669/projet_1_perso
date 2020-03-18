@@ -25,41 +25,15 @@
                 </div>
                 <nav class="mobile-nav">
                         <ul>
-                            <a href="plateformes.html"><li>Platforms</li></a>
-                            <a href="about_us.html"><li>About Us</li></a>
-                            <a href="contact.html"><li>Contact</li></a>
+                            <a href="plateformes.php"><li>Platforms</li></a>
+                            <a href="about_us.php"><li>About Us</li></a>
+                            <a href="contact.php"><li>Contact</li></a>
                         </ul>
                 </nav>
 
             </div>
 
-        <header>
-            <section class="logo">
-                <a href="index.php">
-                    <img class ="logo_smartphone" alt="logo_retro_invaders_smartphone" src="https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Autres/blog-loco-green.png" height="110" width="auto">
-                    <div class="logo-header"></div>
-                </a>
-
-            </section>
-
-            <section class="menu_burger_container">
-                <article id="burger-menu-click" class="menu_burger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-
-                </article>
-            </section>
-            
-            <nav>
-                <ul>
-                    <li><a href="plateformes.html">Platforms</a></li>
-                    <li><a href="about_us.html">About Us</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-
-        </header>
+        <?php include("_header.php"); ?>
 
         <main>
 
@@ -76,12 +50,12 @@
 
                 <div class="nav-platforms-links-container">
 
-                    <h2><a href="genesis.html">Genesis</a></h2>
-                    <h2><a href="nes-classic.html">NES Classic</a></h2>
-                    <h2><a href="dreamcast.html">Dreamcast</a></h2>
-                    <h2><a href="nintendo-64.html">Nintendo 64</a></h2>
-                    <h2><a href="arcade.html">Arcade</a></h2>
-                    <h2><a href="super-nintendo.html">Super Nintendo</a></h2>
+                    <h2><a href="genesis.php">Genesis</a></h2>
+                    <h2><a href="nes-classic.php">NES Classic</a></h2>
+                    <h2><a href="dreamcast.php">Dreamcast</a></h2>
+                    <h2><a href="nintendo-64.php">Nintendo 64</a></h2>
+                    <h2><a href="arcade.php">Arcade</a></h2>
+                    <h2><a href="super-nintendo.php">Super Nintendo</a></h2>
                 </div>
 
             </nav>
@@ -89,7 +63,11 @@
             <section>
 
                 <div class="bloc-container">
-                        <div class="bloc super-mario-bros-2-container"><span>NES</span><h3>Super Mario Bros.</h3><a href="super-mario-bros.html" class="button button-on-hover">See More</a></div>
+                        <div class="bloc tloz-alttp-container"><span>Super Nintendo</span><h3>TLoZ A Link To The Past</h3><a href="a-link-to-the-past.php" class="button button-on-hover">See More</a></div>
+                        <div class="bloc aladdin-container"><span>Super Nintendo</span><h3>Disney's Aladdin</h3><a href="aladdin.php" class="button button-on-hover">See More</a></div>
+                        <div class="bloc kirby-dreamland-container"><span>Super Nintendo</span><h3>Kirby's Dreamland</h3><a href="kirby-dreamland.php" class="button button-on-hover">See More</a></div>
+                        <div class="bloc lion-king-container"><span>Super Nintendo</span><h3>Disney's The Lion King</h3><a href="lion-king.php" class="button button-on-hover">See More</a></div>
+                       
                 </div>
 
             </div>
@@ -98,17 +76,17 @@
     <footer>
         <section class="items">
             <article class="hidden">
-                <a href="plateformes.html">
+                <a href="plateformes.php">
                     <div>Platforms</div>
                 </a>
             </article>
             <article class="hidden">
-                <a href="produits.html">
+                <a href="produits.php">
                     <div>Products</div>
                 </a>
             </article>
             <article class="hidden">
-                <a href="about_us.html">
+                <a href="about_us.php">
                     <div>About Us</div>
                 </a>
             </article>
@@ -120,7 +98,7 @@
                 </a>
             </article>
             <article class="hidden">
-                <a href="contact.html">
+                <a href="contact.php">
                     <div>Contact</div>
                 </a>
             </article>

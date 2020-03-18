@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <html>
-<head>
+  <head>
   <title>Retro Invader</title>
   <meta lang="en">
   <meta name="title" content="Retro Invaders">
@@ -18,9 +18,6 @@
   <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
   <link rel='stylesheet' id='thb-self-hosted-1-css' href="gilroy/gilroy.css">
 </head>
-
-<body>
-
   <div id="nav-mobile-container" class="nav-mobile-full no-content">
             <div class="close-menu-mobile no-content">
                 <span class="bar"></span>
@@ -28,76 +25,50 @@
             </div>
             <nav class="mobile-nav">
                     <ul>
-                        <a href="plateformes.html"><li>Platforms</li></a>
-                        <a href="about_us.html"><li>About Us</li></a>
-                        <a href="contact.html"><li>Contact</li></a>
+                        <a href="plateformes.php"><li>Platforms</li></a>
+                        <a href="about_us.php"><li>About Us</li></a>
+                        <a href="contact.php"><li>Contact</li></a>
                     </ul>
             </nav>
 
         </div>
 
-  <header>
-        <section class="logo">
-            <a href="index.php">
-                <img class ="logo_smartphone" alt="logo_retro_invaders_smartphone" src="Images/Autres/blog-loco-green.png" height="110" width="auto">
-                <div class="logo-header"></div>
-            </a>
-
-        </section>
-
-        <section class="menu_burger_container">
-            <article id="burger-menu-click" class="menu_burger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-
-            </article>
-        </section>
-
-        <nav>
-            <ul>
-                <li><a href="plateformes.html">Platforms</a></li>
-                <li><a href="about_us.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-
-    </header>
+  <?php include("_header.php"); ?>
 
   <main>
         <!--name of the game-->
-        <h1 class="product-game-title"><a href="index.php" title="Home">Home/</a><a href="nintendo-64.html" title="Nintendo-64">Nintendo-64/</a>Zelda Majora's Mask</h1>
+        <h1 class="product-game-title"><a href="index.php" title="home">Home/</a><a href="genesis.php" title="Genesis">Genesis/</a>Altered Beast</h1>
         <hr>
         <div class="product-img-and-description">
           <!--game picture-->
           <div class="product-img-container">
             <div class="product-image-cotation-bloc">
-              <img src="Images/games/N64/The_Legend_of_Zelda_-_Majora's_Mask_Box_Art.jpg" class="game-image" alt="Zelda Majora's Mask">
-              <span class="product-cotation-box">-15%</span>
-            </div>
-          </div>
+                <img src="Images/games/sega-genesis/altered-beast-genesis.png" class="game-image" alt="nom du jeu">
+                <span class="product-cotation-box">+3%</span>
+            </div>  
+        </div>
           <!--info section (global)-->
           <div class="product-description-container">
             <!--game description-->
             <div class="product-game-description">
-              <p>The Legend of Zelda: Majora's Mask is an action-adventure game developed and published by Nintendo for the Nintendo 64. It was released in 2000 as the sixth main installment in The Legend of Zelda series and was the second to use 3D graphics, following 1998's The Legend of Zelda: Ocarina of Time.</p>
+              <p>Altered Beast is a side scrolling beat 'em up game with light platform elements. It has five levels and can be played by up to two players simultaneously. The game's premise is that the player is originally dead but then resurrected and empowered by the Olympian god Zeus to act as his champion.</p>
             </div>
             <!--info about platform, year, platform & price-->
             <div class="product-platform-price-container">
               <div class="product-platform-years">
                 <h3>Platform: </h3>
-                <p>Nintendo 64</p>
+                <p>Sega Genesis</p>
                 <h3>Years: </h3>
-                <p>2000</p>
+                <p>1988</p>
               </div>
               <div class="product-cotation-price">
                 <h3>Prices: </h3>
-                <p>39€ (Loose)</p>
-                <p>140€ (In box)</p>
-                <p>999€ (Complet in box)</p>
+                <p>8€ (Loose)</p>
+                <p>15€ (In box)</p>
+                <p>25€ (Complet in box)</p>
                 <div class="product-cotation-mobile">
-                  <h3>Cotation: </h3>
-                  <p class="cotation-negativ">-15%</p>
+                    <h3>Cotation: </h3>
+                    <p class="cotation-positiv">+3%</p>
                 </div>
               </div>
             </div>
@@ -113,34 +84,35 @@
           <!--video section-->
           <div class="product-video-container">
             <h3>Watch a lets play!</h3>
-            <iframe class="product-video" src="https://www.youtube.com/embed/r_GJNdAdMtc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="product-video" src="https://www.youtube.com/embed/jFiTLTSwAgw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <!--link section-->
           <div class="product-link-container">
             <h3>Buy one online:</h3>
             <label>Loose</label>
-            <a href="https://www.ebay.fr/itm/The-legend-of-ZELDA-MAJORAS-MASK-jeu-nintendo-64-en-tres-bon-etat/264653839220?hash=item3d9e991b74:g:H~YAAOSwq~9eXSL5">The legend of ZELDA MAJORA'S MASK  , jeu nintendo 64 en très bon état</a>
+            <a href="https://www.ebay.fr/i/264584959003?chn=ps&norover=1&mkevt=1&mkrid=709-134431-41854-0&mkcid=2&itemid=264584959003&targetid=884136510609&device=c&mktype=pla&googleloc=9056059&poi=&campaignid=9567047449&mkgroupid=97621257825&rlsatarget=pla-884136510609&abcId=1139516&merchantid=6995724&gclid=CjwKCAjwmKLzBRBeEiwACCVihtQHnD9FHHDz2G2MZnqmE4i7qW7QEpUrvGukJPXNSy-dgea80SebBRoCBucQAvD_BwE" title="[Ebay] Jeu Sega Megadrive Altered Beast (loose)">[Ebay] Jeu Sega Megadrive Altered Beast (loose)</a>
+            <label>In box</label>
+            <a href="https://www.ebay.fr/i/382987993182?chn=ps&norover=1&mkevt=1&mkrid=709-134431-41854-0&mkcid=2&itemid=382987993182&targetid=889406031492&device=c&mktype=pla&googleloc=9056059&poi=&campaignid=9557023196&mkgroupid=102168769670&rlsatarget=pla-889406031492&abcId=1139516&merchantid=138404888&gclid=CjwKCAjwmKLzBRBeEiwACCVihqV0qlm6-WlQh3MEB26St0fL2og_r-tEX9wnN2k3uNPG9O6sJA0eWBoCkGUQAvD_BwE" title="[Ebay] Jeu Sega Mega-drive Altered Beast">[Ebay] Jeu Sega Mega-drive Altered Beast</a>
             <label>Complet in box</label>
-            <a href="https://www.ebay.fr/itm/Zelda-majoras-mask-Nintendo-64-comme-neuf-Near-Mint-Version-Pal-Eur/283811523393?hash=item42147c2b41:g:KuEAAOSwjVReaO4u">Zelda majora's mask Nintendo 64 comme neuf Near Mint Version Pal Eur</a>
-            <label>Mint</label>
-            <a href="https://www.ebay.fr/itm/Nintendo-64-ZELDA-MAJORAS-MASK-NEUF-NEW-SOUS-BLISTER-PAL-EUR/254249301955?hash=item3b327077c3:g:dW4AAOSw-3FZCvtB">Nintendo 64: ZELDA MAJORA'S MASK- NEUF/NEW SOUS BLISTER PAL EUR</a>
+            <a href="https://www.ebay.fr/i/152023388404?chn=ps&norover=1&mkevt=1&mkrid=709-134431-41854-0&mkcid=2&itemid=152023388404&targetid=884405960814&device=c&mktype=pla&googleloc=9056059&poi=&campaignid=9557022446&mkgroupid=97888222243&rlsatarget=pla-884405960814&abcId=1139516&merchantid=116381094&gclid=CjwKCAjwmKLzBRBeEiwACCViht7oUWsemnURt6Ac4FQh1gdFmOFZc8Bi0jT4-uw0alk2zM8XvotrlhoCGScQAvD_BwE" title="[Ebay] SEGA Mega Drive Altered Beast PAL">[Ebay] SEGA Mega Drive Altered Beast PAL</a>
           </div>
         </div>
         
+      <!--footer section-->
       <footer>
         <section class="items">
             <article class="hidden">
-                <a href="plateformes.html">
+                <a href="plateformes.php">
                     <div>Platforms</div>
                 </a>
             </article>
             <article class="hidden">
-                <a href="produits.html">
+                <a href="produits.php">
                     <div>Products</div>
                 </a>
             </article>
             <article class="hidden">
-                <a href="about_us.html">
+                <a href="about_us.php">
                     <div>About Us</div>
                 </a>
             </article>
@@ -152,20 +124,16 @@
                 </a>
             </article>
             <article class="hidden">
-                <a href="contact.html">
+                <a href="contact.php">
                     <div>Contact</div>
                 </a>
             </article>
             <article>
-              <a href="#">
                 <div>FAQ</div>
-            </a>
             </article>
 
             <article>
-              <a href="#">
                 <div>Legal Mentions</div>
-            </a>
             </article>
         </section>
 
@@ -196,9 +164,9 @@
 
         </section>
     </footer>
-</main>
-        
-        <script type="text/javascript">
+  </main>
+
+  <script type="text/javascript">
         jQuery(function(){
           var div = jQuery("#burger-menu-click"), div = jQuery("#nav-mobile-container"), div = jQuery(".close-menu-mobile");
           jQuery("#burger-menu-click").click(function(){

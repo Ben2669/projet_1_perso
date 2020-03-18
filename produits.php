@@ -13,8 +13,7 @@
   </head>
   <body>
       <!--header section-->
-      <header>
-      </header>
+      <?php include("_header.php"); ?>
       <!--main section-->
       <main>
         <!--name of the game-->

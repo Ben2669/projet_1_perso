@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <html>
-  <head>
-  <title>Virtual Tennis</title>
+<head>
+  <title>Retro Invader</title>
   <meta lang="en">
   <meta name="title" content="Retro Invaders">
   <meta charset="UTF-8">
@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" type="text/css" href="produits_style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900|Roboto:300,400,700,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="header_style.css" />
   <link rel="stylesheet" type="text/css" href="footer_style.css" />
@@ -18,80 +18,56 @@
   <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
   <link rel='stylesheet' id='thb-self-hosted-1-css' href="gilroy/gilroy.css">
 </head>
-  <div id="nav-mobile-container" class="nav-mobile-full no-content">
+  <body>
+      <!--header section-->
+     <div id="nav-mobile-container" class="nav-mobile-full no-content">
             <div class="close-menu-mobile no-content">
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
             <nav class="mobile-nav">
                     <ul>
-                        <a href="plateformes.html"><li>Platforms</li></a>
-                        <a href="about_us.html"><li>About Us</li></a>
-                        <a href="contact.html"><li>Contact</li></a>
+                        <a href="plateformes.php"><li>Platforms</li></a>
+                        <a href="about_us.php"><li>About Us</li></a>
+                        <a href="contact.php"><li>Contact</li></a>
                     </ul>
             </nav>
 
         </div>
 
-  <header>
-        <section class="logo">
-            <a href="index.php">
-                <img class ="logo_smartphone" alt="logo_retro_invaders_smartphone" src="Images/Autres/blog-loco-green.png" height="110" width="auto">
-                <div class="logo-header"></div>
-            </a>
-
-        </section>
-
-        <section class="menu_burger_container">
-            <article id="burger-menu-click" class="menu_burger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-
-            </article>
-        </section>
-
-        <nav>
-            <ul>
-                <li><a href="plateformes.html">Platforms</a></li>
-                <li><a href="about_us.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-
-    </header>
-
-  <main>
-        <!--name of the game-->
-        <h1 class="product-game-title"><a href="index.php" title="Home">Home/</a><a href="dreamcast.html" title="Sega-Genesis">Sega-Dreamcast/</a>Virtual Tennis</h1>
+      <?php include("_header.php"); ?>
+      <!--main section-->
+      <main>
+        <!--name of the game (brand, platform, game name)-->
+        <h1 class="product-game-title"><a href="index.php" title="nintendo">Home/</a><a href="super-nintendo.php" title="SNES">SNES/</a>Kirby DreamLand 3</h1>
         <hr>
         <div class="product-img-and-description">
           <!--game picture-->
           <div class="product-img-container">
-            <div class="product-image-cotation-bloc">
-                <img src="Images/games/dreamcast/vten.jpg" class="game-image" alt="Virtual-Tennis">
+              <div class="product-image-cotation-bloc">
+                <img src="Images/games/snes/kirby-dl3-snes.png" class="game-image" alt="KIRBY'S DREAM LAND 3">
                 <span class="product-cotation-box">+0%</span>
-            </div>  
+              </div>
         </div>
           <!--info section (global)-->
           <div class="product-description-container">
             <!--game description-->
             <div class="product-game-description">
-              <p>Directly translated from the popular arcade stand-up, Virtua Tennis offers a light-year jump from the Pong-style tennis of yesteryear. Sporting rich 3-D graphics, crisp animation, and realistic sound effects, you'll swear you're courtside at a grand slam.</p>
+              <p>Kirby's Dream Land 3 is a platformer video game developed by HAL Laboratory and published by Nintendo for the Super Nintendo Entertainment System. Starring Kirby, it is the fifth installment in the Kirby series and the third game under the Kirby's Dream Land name.</p>
             </div>
             <!--info about platform, year, platform & price-->
             <div class="product-platform-price-container">
               <div class="product-platform-years">
                 <h3>Platform: </h3>
-                <p>Sega Dreamcast</p>
+                <p>Nintendo SNES</p>
                 <h3>Years: </h3>
-                <p>1999</p>
+                <p>1997</p>
               </div>
               <div class="product-cotation-price">
                 <h3>Prices: </h3>
-                <p>10€ (Complet in box)</p>
-                <p>15€ (Complet in box)</p>
-                <p>55€ (Mint)</p>
+                <p>55€ (Loose)</p>
+                <p>83€ (Loose)</p>
+                <p>135€ (In box)</p>
                 <div class="product-cotation-mobile">
                     <h3>Cotation: </h3>
                     <p class="cotation-positiv">+0%</p>
@@ -110,17 +86,17 @@
           <!--video section-->
           <div class="product-video-container">
             <h3>Watch a lets play!</h3>
-            <iframe class="product-video" src="https://www.youtube.com/embed/VaDjt_H0iX8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="product-video" src="https://www.youtube.com/embed/UlPlxkYSykY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <!--link section-->
           <div class="product-link-container">
             <h3>Buy one online:</h3>
             <label>Loose</label>
-            <a href="https://www.ebay.fr/itm/Virtual-Tennis-2-Dreamcast-Boite-Notice/114119335112?hash=item1a920adcc8:g:1jsAAOSwDuleSqs6">[Ebay] Virtual Tennis 2 Dreamcast (Boite + Notice)</a>
+            <a href="https://www.ebay.fr/itm/Kirbys-Dream-Land-3-for-Super-Nintendo-SNES-PAL-English/223840620263?hash=item341df0cee7:g:1McAAOSwJ4hY~pwB" title="[Ebay] Kirby's Dream Land 3 pour Super Nintendo SNES PAL Anglais">[Ebay] Kirby's Dream Land 3 pour Super Nintendo SNES PAL Anglais</a>
             <label>In box</label>
-            <a href="https://www.ebay.fr/itm/SEGA-Dreamcast-Virtual-Tennis-2-Manual-INCLUDED/143492243278?hash=item2168cddf4e:g:GasAAOSwzwReEc8N">[Ebay] SEGA Dreamcast - Virtual Tennis 2 - Manual INCLUDED</a>
+            <a href="https://www.ebay.fr/itm/Kirbys-Dream-Land-3-Super-Nintendo-Entertainment-System-1997-VG-CART-ONLY/143537967613?_trkparms=aid%3D1110004%26algo%3DSPLICE.COMP%26ao%3D1%26asc%3D20200220094952%26mei" title="[Ebay] Kirby's Dream Land 3 (Super Nintendo Entertainment System, 1997) VG - CART">[Ebay] Kirby's Dream Land 3 (Super Nintendo Entertainment System, 1997) VG - CART</a>
             <label>Complet in box</label>
-            <a href="https://www.ebay.fr/itm/jeu-sega-dreamcast-sous-blister-neuf-VIRTUA-TENNIS/114141176379?hash=item1a9358223b:g:8~8AAOSwPQBdbOAK">[Ebay] jeu sega dreamcast sous blister neuf VIRTUA TENNIS</a>
+            <a href="https://www.ebay.fr/itm/KIRBYS-DREAM-LAND-3-SNES-SUPER-NINTENDO-GAME/352465270037?hash=item5210913515:g:CaYAAOSwIlBeX5mp" title="[Ebay] KIRBY'S DREAM LAND 3 SNES SUPER NINTENDO GAME">[Ebay] KIRBY'S DREAM LAND 3 SNES SUPER NINTENDO GAME</a>
           </div>
         </div>
         
@@ -128,17 +104,17 @@
       <footer>
         <section class="items">
             <article class="hidden">
-                <a href="plateformes.html">
+                <a href="plateformes.php">
                     <div>Platforms</div>
                 </a>
             </article>
             <article class="hidden">
-                <a href="produits.html">
+                <a href="produits.php">
                     <div>Products</div>
                 </a>
             </article>
             <article class="hidden">
-                <a href="about_us.html">
+                <a href="about_us.php">
                     <div>About Us</div>
                 </a>
             </article>
@@ -150,7 +126,7 @@
                 </a>
             </article>
             <article class="hidden">
-                <a href="contact.html">
+                <a href="contact.php">
                     <div>Contact</div>
                 </a>
             </article>
@@ -166,7 +142,7 @@
         <section class="logo-rs-footer-container">
             <article>
                 <a href="https://www.instagram.com/?hl=fr">
-                   <img alt="logo_instagram" src="Images/Autres/instagram-green.png" height="40" width="auto">
+                   <img class="logo_instagram" alt="logo_instagram" src="Images/Autres/instagram-green.png" height="40" width="auto">
                 </a>
             </article>
             
@@ -190,9 +166,9 @@
 
         </section>
     </footer>
-  </main>
-
-  <script type="text/javascript">
+</main>
+        
+        <script type="text/javascript">
         jQuery(function(){
           var div = jQuery("#burger-menu-click"), div = jQuery("#nav-mobile-container"), div = jQuery(".close-menu-mobile");
           jQuery("#burger-menu-click").click(function(){
