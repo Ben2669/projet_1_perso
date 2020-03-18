@@ -14,6 +14,7 @@
 <body>
 
 <header>
+
     <section class="logo">
         <a href="index.php">
             <img class ="logo_smartphone" alt="logo_retro_invaders_smartphone" src="Images/Autres/blog-loco-green.png" height="110" width="auto">
