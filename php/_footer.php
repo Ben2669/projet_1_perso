@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Footer</title>
-    <link rel="stylesheet" type="text/css" href="footer_style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-</head>
-
-<body>
 <footer>
     <section class="items">
         <article class="hidden">
@@ -81,3 +69,4 @@
 </script>
 
 </body>
+</html>

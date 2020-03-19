@@ -1,4 +1,4 @@
-<?php include("_header.php"); ?>
+<?php include("php/_header.php"); ?>
 
 <main>
     <section class="banner-homepage">
@@ -27,7 +27,7 @@
                     <span class="release-date">1993</span>
                 </div>
                 <p>Nintendo created platform games and got it at its best with Super Mario Bros. 2. Experience now one of the best platformers ever created!</p>
-                <a href="super-mario-bros.php" class="button">MORE INFO</a>
+                <a href="php/super-mario-bros.php" class="button">MORE INFO</a>
             </div>
         </section>
 
@@ -40,7 +40,7 @@
                     <span class="release-date">1992</span>
                 </div>
                 <p>Ryu, CHun-Li, M. Bison... choose your favorite street fighter and battleyour friend!</p>
-                <a href="street-fighter-2.php" class="button">MORE INFO</a>
+                <a href="php/street-fighter-2.php" class="button">MORE INFO</a>
             </div>
         </section>
 
@@ -55,7 +55,7 @@
                     <span class="release-date">1992</span>
                 </div>
                 <p>With Sonic the Hedgehog, Sega became a real concurrent to Nintendo’s Mario.</p>
-                <a href="sonic-the-hedgehog-2.php" class="button">MORE INFO</a>
+                <a href="php/sonic-the-hedgehog-2.php" class="button">MORE INFO</a>
             </div>
         </section>
 
@@ -69,42 +69,42 @@
 
         <div class="products-container-homepage">
 
-            <a href="genesis.php">
+            <a href="php/genesis.php">
                 <div class="platform-container sega-megadrive">
                     <span class="number-of-games">2 JEUX</span>
                     <h3>Sega Genesis</h3>
                 </div>
             </a>
 
-            <a href="nes-classic.php">
+            <a href="php/nes-classic.php">
                 <div class="platform-container nes-classic">
                     <span class="number-of-games">1 JEUX</span>
                     <h3>NES Classic</h3>
                 </div>
             </a>
 
-            <a href="dreamcast.php">
+            <a href="php/dreamcast.php">
                 <div class="platform-container dreamcast">
                     <span class="number-of-games">1 JEUX</span>
                     <h3>Dreamcast</h3>
                 </div>
             </a>
 
-            <a href="nintendo-64.php">
+            <a href="php/nintendo-64.php">
                 <div class="platform-container nintendo-64">
                     <span class="number-of-games">3 JEUX</span>
                     <h3>Nintendo 64</h3>
                 </div>
             </a>
 
-            <a href="arcade.php">
+            <a href="php/arcade.php">
                 <div class="platform-container arcade">
                     <span class="number-of-games">2 JEUX</span>
                     <h3>Arcade</h3>
                 </div>
             </a>
 
-            <a href="super-nintendo.php">
+            <a href="php/super-nintendo.php">
                 <div class="platform-container super-nintendo">
                     <span class="number-of-games">4 JEUX</span>
                     <h3>Super Nintendo</h3>
@@ -112,7 +112,7 @@
             </a>
         </div>
 
-        <a href="plateformes.php" class="button">SEE ALL</a>
+        <a href="php/plateformes.php" class="button">SEE ALL</a>
 
     </section>
 
@@ -121,7 +121,7 @@
         <div class="about-us-homepage-content-container">
             <h2>Let's meet</h2>
             <p>Video game is our passion since we were kids and we love to share it.</p>
-            <a href="about_us.php" class="button pink-button">KNOW MORE</a>
+            <a href="php/about_us.php" class="button pink-button">KNOW MORE</a>
         </div>
 
     </section>
@@ -141,8 +141,6 @@
 
     </section>
 
-    <?php include("_footer.php");?>
-</main>
 
-</body>
-</html>
+</main>
+<?php include("php/_footer.php");?>
