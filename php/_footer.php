@@ -76,7 +76,7 @@
     </section>
 </footer>
 
-<script type="text/javascript" src="burger.js">
+<script type="text/javascript" src="js/burger.js">
 
 </script>
 
