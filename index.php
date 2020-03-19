@@ -27,7 +27,7 @@
                     <span class="release-date">1993</span>
                 </div>
                 <p>Nintendo created platform games and got it at its best with Super Mario Bros. 2. Experience now one of the best platformers ever created!</p>
-                <a href="php/super-mario-bros.php" class="button">MORE INFO</a>
+                <a href="php/products/super-mario-bros.php" class="button">MORE INFO</a>
             </div>
         </section>
 
@@ -40,7 +40,7 @@
                     <span class="release-date">1992</span>
                 </div>
                 <p>Ryu, CHun-Li, M. Bison... choose your favorite street fighter and battleyour friend!</p>
-                <a href="php/street-fighter-2.php" class="button">MORE INFO</a>
+                <a href="php/products/street-fighter-2.php" class="button">MORE INFO</a>
             </div>
         </section>
 
@@ -55,7 +55,7 @@
                     <span class="release-date">1992</span>
                 </div>
                 <p>With Sonic the Hedgehog, Sega became a real concurrent to Nintendo’s Mario.</p>
-                <a href="php/sonic-the-hedgehog-2.php" class="button">MORE INFO</a>
+                <a href="php/products/sonic-the-hedgehog-2.php" class="button">MORE INFO</a>
             </div>
         </section>
 
@@ -69,42 +69,42 @@
 
         <div class="products-container-homepage">
 
-            <a href="php/genesis.php">
+            <a href="php/platforms/genesis.php">
                 <div class="platform-container sega-megadrive">
                     <span class="number-of-games">2 JEUX</span>
                     <h3>Sega Genesis</h3>
                 </div>
             </a>
 
-            <a href="php/nes-classic.php">
+            <a href="php/platforms/nes-classic.php">
                 <div class="platform-container nes-classic">
                     <span class="number-of-games">1 JEUX</span>
                     <h3>NES Classic</h3>
                 </div>
             </a>
 
-            <a href="php/dreamcast.php">
+            <a href="php/platforms/dreamcast.php">
                 <div class="platform-container dreamcast">
                     <span class="number-of-games">1 JEUX</span>
                     <h3>Dreamcast</h3>
                 </div>
             </a>
 
-            <a href="php/nintendo-64.php">
+            <a href="php/platforms/nintendo-64.php">
                 <div class="platform-container nintendo-64">
                     <span class="number-of-games">3 JEUX</span>
                     <h3>Nintendo 64</h3>
                 </div>
             </a>
 
-            <a href="php/arcade.php">
+            <a href="php/platforms/arcade.php">
                 <div class="platform-container arcade">
                     <span class="number-of-games">2 JEUX</span>
                     <h3>Arcade</h3>
                 </div>
             </a>
 
-            <a href="php/super-nintendo.php">
+            <a href="php/platforms/super-nintendo.php">
                 <div class="platform-container super-nintendo">
                     <span class="number-of-games">4 JEUX</span>
                     <h3>Super Nintendo</h3>

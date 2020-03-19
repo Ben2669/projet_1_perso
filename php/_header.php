@@ -11,11 +11,11 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900|Roboto:300,400,700,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="header_style.css" />
-    <link rel="stylesheet" type="text/css" href="footer_style.css" />
+    <link rel="stylesheet" href="../css/header_style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/footer_style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
-    <link rel='stylesheet' id='thb-self-hosted-1-css' href="gilroy/gilroy.css">
+    <link rel='stylesheet' id='thb-self-hosted-1-css' href="../gilroy/gilroy.css">
 </head>
 
 <body>
@@ -38,8 +38,8 @@
 <header>
 
     <section class="logo">
-        <a href="index.php">
-            <img class ="logo_smartphone" alt="logo_retro_invaders_smartphone" src="Images/Autres/blog-loco-green.png" height="110" width="auto">
+        <a href="../index.php">
+            <img class ="logo_smartphone" alt="logo_retro_invaders_smartphone" src="../Images/Autres/blog-loco-green.png" height="110" width="auto">
             <div class="logo-header"></div>
         </a>
 
