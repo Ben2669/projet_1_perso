@@ -1,4 +1,6 @@
-<?php include("php/_header.php"); ?>
+<?php
+$title = "Retro Invader";
+include("php/_header.php"); ?>
 
 <main>
     <section class="banner-homepage">

@@ -1,29 +1,29 @@
 <footer>
     <section class="items">
         <article class="hidden">
-            <a href="plateformes.php">
+            <a href="/php/plateformes.php">
                 <div>Platforms</div>
             </a>
         </article>
         <article class="hidden">
-            <a href="products/produits.php">
+            <a href="/php/products/produits.php">
                 <div>Products</div>
             </a>
         </article>
         <article class="hidden">
-            <a href="about_us.php">
+            <a href="/php/about_us.php">
                 <div>About Us</div>
             </a>
         </article>
         <article class="hidden">
-            <a href="../index.php">
+            <a href="/index.php">
                 <div class="logo_retro_invaders">
                     <img class="logo_desktop" alt="logo_retro_invaders_desktop" src="../Images/Autres/blog-loco-green.png" height="150" width="auto">
                 </div>
             </a>
         </article>
         <article class="hidden">
-            <a href="contact.php">
+            <a href="/php/contact.php">
                 <div>Contact</div>
             </a>
         </article>

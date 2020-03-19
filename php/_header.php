@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Retro Invader</title>
+    <title><?php echo $title;?></title>
     <meta lang="en">
     <meta name="title" content="Retro Invaders">
     <meta charset="UTF-8">
@@ -27,9 +27,9 @@
     </div>
     <nav class="mobile-nav">
         <ul>
-            <a href="plateformes.php"><li>Platforms</li></a>
-            <a href="about_us.php"><li>About Us</li></a>
-            <a href="contact.php"><li>Contact</li></a>
+            <a href="/php/plateformes.php"><li>Platforms</li></a>
+            <a href="/php/about_us.php"><li>About Us</li></a>
+            <a href="/php/contact.php"><li>Contact</li></a>
         </ul>
     </nav>
 
@@ -56,9 +56,9 @@
 
     <nav>
         <ul>
-            <li><a href="plateformes.php">Platforms</a></li>
-            <li><a href="about_us.php">About Us</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="/php/plateformes.php">Platforms</a></li>
+            <li><a href="/php/about_us.php">About Us</a></li>
+            <li><a href="/php/contact.php">Contact</a></li>
         </ul>
     </nav>
 
