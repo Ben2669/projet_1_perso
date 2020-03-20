@@ -1,4 +1,7 @@
-<?php include("_header.php"); ?>
+<?php
+$title = "Plateforms";
+$css = "/css/plateformes_style.css";
+include("_header.php"); ?>
 
 <main>
 
@@ -15,12 +18,12 @@
 
             <div class="nav-platforms-links-container">
 
-                <h2><a href="genesis.php">Genesis</a></h2>
-                <h2><a href="nes-classic.php">NES Classic</a></h2>
-                <h2><a href="dreamcast.php">Dreamcast</a></h2>
-                <h2><a href="nintendo-64.php">Nintendo 64</a></h2>
-                <h2><a href="arcade.php">Arcade</a></h2>
-                <h2><a href="super-nintendo.php">Super Nintendo</a></h2>
+                <h2><a href="/php/platforms/genesis.php">Genesis</a></h2>
+                <h2><a href="/php/platforms/nes-classic.php">NES Classic</a></h2>
+                <h2><a href="/php/platforms/dreamcast.php">Dreamcast</a></h2>
+                <h2><a href="/php/platforms/nintendo-64.php">Nintendo 64</a></h2>
+                <h2><a href="/php/platforms/arcade.php">Arcade</a></h2>
+                <h2><a href="/php/platforms/super-nintendo.php">Super Nintendo</a></h2>
             </div>
 
         </nav>

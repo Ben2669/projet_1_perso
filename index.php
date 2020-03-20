@@ -1,5 +1,6 @@
 <?php
 $title = "Retro Invader";
+$css = "../css/index_style.css";
 include("php/_header.php"); ?>
 
 <main>
