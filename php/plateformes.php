@@ -17,13 +17,20 @@ include("_header.php"); ?>
             <h2>Select your platform</h2>
 
             <div class="nav-platforms-links-container">
-
-                <h2><a href="/php/platforms/genesis.php">Genesis</a></h2>
-                <h2><a href="/php/platforms/nes-classic.php">NES Classic</a></h2>
-                <h2><a href="/php/platforms/dreamcast.php">Dreamcast</a></h2>
-                <h2><a href="/php/platforms/nintendo-64.php">Nintendo 64</a></h2>
-                <h2><a href="/php/platforms/arcade.php">Arcade</a></h2>
-                <h2><a href="/php/platforms/super-nintendo.php">Super Nintendo</a></h2>
+                <?php
+                $platforms = [
+                    'genesis.php">Genesis',
+                    'nes-classic.php">NES Classic',
+                    'dreamcast.php">Dreamcast',
+                    'nintendo-64.php">Nintendo 64',
+                    'arcade.php">Arcade',
+                    'super-nintendo.php">Super Nintendo',
+                ];
+                sort($platforms);
+                foreach ($platforms as $platform) {
+                    echo '<h2><a href="/php/platforms/'.$platform.'</a></h2>';
+                };
+                ?>
             </div>
 
         </nav>
