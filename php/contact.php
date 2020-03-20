@@ -68,13 +68,5 @@ include("_header.php"); ?>
             </div>
         </div>
     </div>
-    </div>
-    </div>
-    <?php include("_footer.php");?>
 </main>
-
-
-
-</body>
-
-</html>
+<?php include("_footer.php");?>

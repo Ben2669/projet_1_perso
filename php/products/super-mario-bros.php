@@ -1,48 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<html>
-<head>
-    <title>Super Mario Bros</title>
-    <meta lang="en">
-    <meta name="title" content="Retro Invaders">
-    <meta charset="UTF-8">
-    <meta name="description" content="Retro Invaders helps you to find your favorite retro games">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="produits_style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/fontawesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900|Roboto:300,400,700,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="header_style.css" />
-    <link rel="stylesheet" type="text/css" href="footer_style.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
-    <link rel='stylesheet' id='thb-self-hosted-1-css' href="gilroy/gilroy.css">
-</head>
-<div id="nav-mobile-container" class="nav-mobile-full no-content">
-    <div class="close-menu-mobile no-content">
-        <span class="bar"></span>
-        <span class="bar"></span>
-    </div>
-    <nav class="mobile-nav">
-        <ul>
-            <a href="plateformes.php"><li>Platforms</li></a>
-            <a href="about_us.php"><li>About Us</li></a>
-            <a href="contact.php"><li>Contact</li></a>
-        </ul>
-    </nav>
-
-</div>
-
-<?php include("_header.php"); ?>
+<?php
+$title = "Super Mario Bros";
+$css = "/css/produits_style.css";
+include("../_header.php"); ?>
 <main>
     <!--name of the game-->
-    <h1 class="product-game-title"><a href="index.php" title="Home">Home/</a><a href="nes-classic.php" title="Sega-Genesis">NES/</a>Super Mario Bros.</h1>
+    <h1 class="product-game-title"><a href="/index.php" title="Home">Home/</a><a href="/php/platforms/nes-classic.php" title="Sega-Genesis">NES/</a>Super Mario Bros.</h1>
     <hr>
     <div class="product-img-and-description">
         <!--game picture-->
         <div class="product-img-container">
             <div class="product-image-cotation-bloc">
-                <img src="Images/games/NES/Super_Mario_Bros._box.png" class="game-image" alt="Super Mario Bros">
+                <img src="/Images/games/NES/Super_Mario_Bros._box.png" class="game-image" alt="Super Mario Bros">
                 <span class="product-cotation-box">+0%</span>
             </div>
         </div>
@@ -96,9 +64,5 @@
             <a href="https://www.ebay.fr/itm/suPer-MARIo-BRoS-FAH-cOmplet-pOur-NINTENDo-NES-1987/264504502331?hash=item3d95b2683b:g:t2MAAOSwFMRdq7G8">[Ebay] ~*~ suPer MARIo BRoS. - FAH ~~ cOmplet pOur NINTENDo NES ~ 1987 ~* ~~</a>
         </div>
     </div>
-
-    <?php include("_footer.php");?>
 </main>
-
-</body>
-</html>
+<?php include("../_footer.php");?>

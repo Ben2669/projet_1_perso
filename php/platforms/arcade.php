@@ -31,15 +31,11 @@ include("../_header.php"); ?>
         <section>
 
             <div class="bloc-container">
-                <div class="bloc street-fighter-container"><span>Arcade</span><h3>Street Fighter 2</h3><a href="street-fighter-2.php" class="button button-on-hover">See More</a></div>
-                <div class="bloc metal-slug-container"><span>Arcade</span><h3>Metal Slug</h3><a href="metal-slug.php" class="button button-on-hover">See More</a></div>
+                <div class="bloc street-fighter-container"><span>Arcade</span><h3>Street Fighter 2</h3><a href="/php/products/street-fighter-2.php" class="button button-on-hover">See More</a></div>
+                <div class="bloc metal-slug-container"><span>Arcade</span><h3>Metal Slug</h3><a href="/php/products/metal-slug.php" class="button button-on-hover">See More</a></div>
             </div>
 
-            </div>
+        </section>
 </main>
 
 <?php include("../_footer.php");?>
-</main>
-
-</body>
-</html>

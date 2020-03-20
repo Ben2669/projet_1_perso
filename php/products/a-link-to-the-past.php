@@ -1,49 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<html>
-<head>
-    <title>Retro Invader</title>
-    <meta lang="en">
-    <meta name="title" content="Retro Invaders">
-    <meta charset="UTF-8">
-    <meta name="description" content="Retro Invaders helps you to find your favorite retro games">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="produits_style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900|Roboto:300,400,700,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="header_style.css" />
-    <link rel="stylesheet" type="text/css" href="footer_style.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
-    <link rel='stylesheet' id='thb-self-hosted-1-css' href="gilroy/gilroy.css">
-</head>
-<div id="nav-mobile-container" class="nav-mobile-full no-content">
-    <div class="close-menu-mobile no-content">
-        <span class="bar"></span>
-        <span class="bar"></span>
-    </div>
-    <nav class="mobile-nav">
-        <ul>
-            <a href="plateformes.php"><li>Platforms</li></a>
-            <a href="about_us.php"><li>About Us</li></a>
-            <a href="contact.php"><li>Contact</li></a>
-        </ul>
-    </nav>
-
-</div>
-
-<?php include("_header.php"); ?>
+<?php
+$title = "A Link To The Past";
+$css = "/css/produits_style.css";
+include("../_header.php"); ?>
 
 <main>
     <!--name of the game-->
-    <h1 class="product-game-title"><a href="index.php" title="Home">Home/</a><a href="super-nintendo.php" title="Nintendo-SNES">Nintendo-SNES/</a>Zelda a Link to The Past</h1>
+    <h1 class="product-game-title"><a href="/index.php" title="Home">Home/</a><a href="/php/platforms/super-nintendo.php" title="Nintendo-SNES">Nintendo-SNES/</a>Zelda a Link to The Past</h1>
     <hr>
     <div class="product-img-and-description">
         <!--game picture-->
         <div class="product-img-container">
             <div class="product-image-cotation-bloc">
-                <img src="Images/games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg" class="game-image" alt="Lnk to the Past">
+                <img src="/Images/games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg" class="game-image" alt="Lnk to the Past">
                 <span class="product-cotation-box">-6%</span>
             </div>
         </div>
@@ -97,9 +65,6 @@
             <a href="https://www.ebay.fr/itm/THE-LEGEND-OF-ZELDA-A-LINK-TO-THE-PAST-SUPER-NINTENDO-SNES-COMPLET-FAH-FR/164101663778?hash=item263538ac22:g:50EAAOSwUHleUnng">THE LEGEND OF ZELDA A LINK TO THE PAST - SUPER NINTENDO SNES - COMPLET FAH FR</a>
         </div>
     </div>
-
-    <?php include("_footer.php");?>
-
 </main>
-</body>
-</html>
+<?php include("../_footer.php");?>
+

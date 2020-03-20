@@ -113,8 +113,3 @@ include("_header.php"); ?>
 </main>
 
 <?php include("_footer.php");?>
-
-
-</div>
-</body>
-</html>
