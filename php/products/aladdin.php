@@ -31,9 +31,12 @@ include("../_header.php"); ?>
                 </div>
                 <div class="product-cotation-price">
                     <h3>Prices: </h3>
-                    <p>20€ (Loose)</p>
-                    <p>35€ (In box)</p>
-                    <p>50€ (Complet in box)</p>
+                    <?php
+                    $priceList = ['Loose' => 20, 'In box' => 35, 'Complet in box' =>50];
+                    foreach ($priceList as $types => $valueInEuro) {
+                        echo "<p>$valueInEuro"."€ ($types)</p>";
+                    }
+                    ?>
                     <div class="product-cotation-mobile">
                         <h3>Cotation: </h3>
                         <p class="cotation-positiv">+0%</p>
