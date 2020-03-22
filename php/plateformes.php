@@ -26,10 +26,14 @@ include("_header.php"); ?>
                         'arcade.php">Arcade',
                         'super-nintendo.php">Super Nintendo',
                     ];
-                    sort($platforms);
-                    foreach ($platforms as $platform) {
-                        echo '<h2><a href="/php/platforms/'.$platform.'</a></h2>';
+                    function sortPlatforms ($platformsArray)
+                    {
+                        sort($platformsArray);
+                        foreach ($platformsArray as $platformsArrayValue) {
+                            echo '<h2><a href="/php/platforms/'.$platformsArrayValue.'</a></h2>';
+                        };
                     };
+                    sortPlatforms($platforms);
                     ?>
                 </div>
 
