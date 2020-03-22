@@ -1,7 +1,7 @@
 <?php
 $title = "Ocarina of Time";
 $css = "/css/produits_style.css";
-include("_header.php"); ?>
+include("../_header.php"); ?>
 
 <main>
     <!--name of the game-->

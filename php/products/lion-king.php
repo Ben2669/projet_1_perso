@@ -1,5 +1,6 @@
 <?php
 $title = "Lion King";
+$css = "/css/produits_style.css";
 include("../_header.php"); ?>
 
 <main>

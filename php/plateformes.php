@@ -51,7 +51,7 @@ include("_header.php"); ?>
                     <div class="bloc aladdin-container"><span>Super Nintendo</span><h3>Disney's Aladdin</h3><a href="/php/products/aladdin.php" class="button button-on-hover">See More</a></div>
                     <div class="bloc altered-beast-container"><span>Genesis</span><h3>Altered Beast</h3><a href="/php/products/altered-beast.php" class="button button-on-hover">See More</a></div>
                     <div class="bloc kirby-dreamland-container"><span>Super Nintendo</span><h3>Kirby's Dreamland</h3><a href="/php/products/kirby-dreamland.php" class="button button-on-hover">See More</a></div>
-                    <div class="bloc lion-king-container"><span>Super Nintendo</span><h3>Disney's The Lion King</h3><a href="#" class="button button-on-hover">See More</a></div>
+                    <div class="bloc lion-king-container"><span>Super Nintendo</span><h3>Disney's The Lion King</h3><a href="/php/products/lion-king.php" class="button button-on-hover">See More</a></div>
                     <div class="bloc metal-slug-container"><span>Arcade</span><h3>Metal Slug</h3><a href="/php/products/metal-slug.php" class="button button-on-hover">See More</a></div>
                     <div class="bloc super-mario-64-container"><span>Nintendo 64</span><h3>Super Mario 64</h3><a href="/php/products/super-mario-64.php" class="button button-on-hover">See More</a></div>
                     <div class="bloc virtual-tennis-container"><span>Dreamcast</span><h3>Virtual Tennis</h3><a href="/php/products/virtual-tennis.php" class="button button-on-hover">See More</a></div>
