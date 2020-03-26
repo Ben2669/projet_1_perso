@@ -129,7 +129,7 @@ include("php/_header.php"); ?>
 
         </section>
 
-        <form class="contact-homepage">
+        <form class="contact-homepage" method="post" action="/php/subscribe_succes.php">
 
             <div class="heading-with-background">
                 <h2>Subscribe to our newsletter!</h2>
@@ -169,26 +169,8 @@ include("php/_header.php"); ?>
                 <textarea placeholder="Want to know more about a specific game? Tell us here!"></textarea>
             </label>
 
-            <div class="modal-container">
-                <button type="submit" data-toggle="modal" data-target="#newsletter_subscription_success">SUBSCRIBE!</button>
-                <div class="modal fade" id="newsletter_subscription_success" role="dialog">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title">Thanks for subscribing!</h4>
-                            </div>
-                            <div class="modal-body">
-                                YOU'RE ONE OF US NOW !!!!
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-
+            <button type="submit" data-toggle="modal" data-target="#newsletter_subscription_success">SUBSCRIBE!</button>
 
         </form>
 
