@@ -129,20 +129,49 @@ include("php/_header.php"); ?>
 
         </section>
 
-        <section class="contact-homepage">
+        <form class="contact-homepage">
 
             <div class="heading-with-background">
-                <h2>Any questions?</h2>
+                <h2>Subscribe to our newsletter!</h2>
             </div>
+                <label for="name" class="first-form-element">
+                    <input type="text" placeholder="Name">
+                </label>
 
-            <input class="first-form-element" type="text" placeholder="Name">
-            <input type="text" placeholder="Email Address">
-            <input type="dropdown" placeholder="How can we help?">
-            <textarea placeholder="Anything else?"></textarea>
+            <label for="email">
+                <input type="text" placeholder="Email Address">
+            </label>
+            <label for="platform_choice">
+                <select name="platform_choice">
+                    <option value="default">Only interested in a specific platform? Choose here!</option>
+                    <?php
+                    $platforms = [
+                        'Genesis',
+                        'NES Classic',
+                        'Dreamcast',
+                        'Nintendo 64',
+                        'Arcade',
+                        'Super Nintendo',
+                    ];
+                    function sortPlatforms ($platformsArray)
+                    {
+                        sort($platformsArray);
+                        foreach ($platformsArray as $platformsArrayValue) {
+                            echo "<option value='$platformsArrayValue'>$platformsArrayValue</option>";
+                        };
+                    };
+                    sortPlatforms($platforms);
+                    ?>
 
-            <button type="submit">SUBMIT</button>
+                </select>
+            </label>
+            <label for="message">
+                <textarea placeholder="Want to know more about a specific game? Tell us here!"></textarea>
+            </label>
 
-        </section>
+            <button type="submit">SUBSCRIBE!</button>
+
+        </form>
 
 
     </main>

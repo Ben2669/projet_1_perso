@@ -309,7 +309,12 @@ span.release-date {
     width: 100%;
     background-color:#efefef;
 }
-.contact-homepage input, .contact-homepage textarea, .form input, .form textarea {
+.contact-homepage label {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.contact-homepage input, select, .contact-homepage textarea, .form input, .form textarea {
 	width: 60%;
     border: 1px solid #52ae32;
     margin: 10px 0;
@@ -317,6 +322,9 @@ span.release-date {
     border-radius:5px;
     padding-left:8px;
     background-color:white;
+}
+select:first-child {
+	color: gray;
 }
 .contact-homepage input::placeholder, .contact-homepage textarea::placeholder, .form input:placeholder, .form textarea:placeholder {
 	color:#52ae32;
