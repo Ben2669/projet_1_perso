@@ -412,7 +412,7 @@ button:hover {
 	.about-us-homepage-content-container p {
 		padding:0 15px;
 	}
-	.contact-homepage input, .contact-homepage textarea {
+	.contact-homepage input, .contact-homepage select, .contact-homepage textarea {
 		width:calc(100% - 30px);
 	}
 	.contact-homepage input::placeholder, .contact-homepage textarea::placeholder {

@@ -135,11 +135,11 @@ include("php/_header.php"); ?>
                 <h2>Subscribe to our newsletter!</h2>
             </div>
                 <label for="name" class="first-form-element">
-                    <input type="text" placeholder="Name">
+                    <input required type="text" placeholder="Name">
                 </label>
 
             <label for="email">
-                <input type="text" placeholder="Email Address">
+                <input required type="text" placeholder="Email Address">
             </label>
             <label for="platform_choice">
                 <select name="platform_choice">
@@ -169,7 +169,26 @@ include("php/_header.php"); ?>
                 <textarea placeholder="Want to know more about a specific game? Tell us here!"></textarea>
             </label>
 
-            <button type="submit">SUBSCRIBE!</button>
+            <div class="modal-container">
+                <button type="submit" data-toggle="modal" data-target="#newsletter_subscription_success">SUBSCRIBE!</button>
+                <div class="modal fade" id="newsletter_subscription_success" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Thanks for subscribing!</h4>
+                            </div>
+                            <div class="modal-body">
+                                YOU'RE ONE OF US NOW !!!!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
 
         </form>
 
