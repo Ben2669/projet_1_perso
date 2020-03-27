@@ -1,8 +1,7 @@
 <?php
 $title = "Retro Invader";
 $css = "/css/index_style.css";
-include("php/_header.php"); ?>
-
+include_once("php/_header.php"); ?>
     <main>
         <section class="banner-homepage">
 
@@ -129,20 +128,55 @@ include("php/_header.php"); ?>
 
         </section>
 
-        <form class="contact-homepage" method="post" action="/php/subscribe_succes.php">
+        <?php
+
+
+        if ($_POST) {
+            $error = array();
+
+            if (empty($_POST["userName"])) {
+                $error['userName1'] = "Name is required";
+            } else {
+                $userName = trim($_POST['userName']);
+            }
+
+            if (empty($_POST["userEmail"])) {
+                $error['userEmail1'] = "Email is required";
+            } else {
+                $userEmail = trim($_POST['userEmail']);
+            }
+
+            if (!empty($_POST["platformChoice"])) {
+                $platformChoice = $_POST['platformChoice'];
+            }
+
+            if (!empty($_POST["message"])) {
+                $message = $_POST['message'];
+            }
+
+            if (count($error) == 0) {
+                header("Location: /php/subscribe_success.php?userName=$userName&userEmail=$userEmail&platformChoice=$platformChoice&message=$message");
+                exit();
+            }
+        }
+
+
+        ?>
+
+        <form novalidate class="contact-homepage" method="post" target="">
 
             <div class="heading-with-background">
                 <h2>Subscribe to our newsletter!</h2>
             </div>
-                <label for="name" class="first-form-element">
-                    <input required type="text" placeholder="Name">
-                </label>
+            <label for="name" class="first-form-element">
+                <input name="userName" type="text" placeholder="Name">
+            </label>
 
             <label for="email">
-                <input required type="text" placeholder="Email Address">
+                <input required name="userEmail" type="text" placeholder="Email Address">
             </label>
             <label for="platform_choice">
-                <select name="platform_choice">
+                <select name="platformChoice">
                     <option value="default">Only interested in a specific platform? Choose here!</option>
                     <?php
                     $platforms = [
@@ -153,27 +187,30 @@ include("php/_header.php"); ?>
                         'Arcade',
                         'Super Nintendo',
                     ];
-                    function sortPlatforms ($platformsArray)
+                    function sortPlatforms($platformsArray)
                     {
                         sort($platformsArray);
                         foreach ($platformsArray as $platformsArrayValue) {
                             echo "<option value='$platformsArrayValue'>$platformsArrayValue</option>";
                         };
-                    };
+                    }
+
+                    ;
                     sortPlatforms($platforms);
+
                     ?>
 
                 </select>
             </label>
             <label for="message">
-                <textarea placeholder="Want to know more about a specific game? Tell us here!"></textarea>
+                <textarea name="message" placeholder="Want to know more about a specific game? Tell us here!"></textarea>
             </label>
 
 
-            <button type="submit" data-toggle="modal" data-target="#newsletter_subscription_success">SUBSCRIBE!</button>
+            <button type="submit">SUBSCRIBE!</button>
 
         </form>
 
 
     </main>
-<?php include("php/_footer.php");?>
+<?php include("php/_footer.php"); ?>
