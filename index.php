@@ -11,6 +11,9 @@ if ($_POST) {
         $error['userEmail1'] = "Email is required";
     } else {
         $userEmail = trim($_POST['userEmail']);
+        if (!filter_var($userEmail, FILTER_VALIDATE_EMAIL)) {
+            $error['userEmail1'] = "Invalid email format";
+        }
     }
     if (!empty($_POST["platformChoice"])) {
         $platformChoice = $_POST['platformChoice'];
@@ -22,6 +25,9 @@ if ($_POST) {
         header("Location: /php/subscribe_success.php?userName=$userName&userEmail=$userEmail");
     }
 }
+$title = "Retro Invader";
+$css = "/css/index_style.css";
+include("php/_header.php");
 ?>
 <main>
     <section class="banner-homepage">
@@ -126,16 +132,18 @@ if ($_POST) {
             <a href="php/about_us.php" class="button pink-button">KNOW MORE</a>
         </div>
     </section>
-    <form class="contact-homepage" method="post" target="">
+    <form novalidate class="contact-homepage" method="post" target="">
         <div class="heading-with-background">
             <h2>Subscribe to our newsletter!</h2>
         </div>
         <label for="name" class="first-form-element">
-            <input required name="userName" type="text" placeholder="Name">
+            <input required <?php if (isset($userName)) echo "value='$userName'"; if (isset($error['userName1'])) echo 'id="border-error"'; ?> name="userName" type="text" placeholder="Name">
         </label>
+        <div class="text-error"><?php if (isset($error['userName1'])) echo $error['userName1']; ?></div>
         <label for="email">
-            <input required name="userEmail" type="text" placeholder="Email Address">
+            <input required <?php if (isset($userEmail)) echo "value='$userEmail'"; if (isset($error['userEmail1'])) echo 'id="border-error"';?> name="userEmail" type="text" placeholder="Email Address">
         </label>
+        <div class="text-error"><?php if (isset($error['userEmail1'])) echo $error['userEmail1']; ?></div>
         <label for="platform_choice">
             <select name="platformChoice">
                 <option value="default">Only interested in a specific platform? Choose here!</option>

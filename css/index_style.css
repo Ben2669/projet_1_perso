@@ -323,6 +323,13 @@ span.release-date {
     padding-left:8px;
     background-color:white;
 }
+.text-error {
+	width: 60%;
+	color: red;
+}
+#border-error {
+	border: 1px solid red;
+}
 select:first-child {
 	color: gray;
 }
