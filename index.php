@@ -1,7 +1,7 @@
 <?php
 $title = "Retro Invader";
 $css = "/css/index_style.css";
-include_once("php/_header.php"); ?>
+include_once("php/_header.php");?>
     <main>
         <section class="banner-homepage">
 
@@ -130,6 +130,7 @@ include_once("php/_header.php"); ?>
 
         <?php
 
+        $message = '';
 
         if ($_POST) {
             $error = array();
@@ -154,22 +155,22 @@ include_once("php/_header.php"); ?>
                 $message = $_POST['message'];
             }
 
-            if (count($error) == 0) {
+            /*if (count($error) == 0) {
                 header("Location: /php/subscribe_success.php?userName=$userName&userEmail=$userEmail&platformChoice=$platformChoice&message=$message");
                 exit();
-            }
+            }*/
         }
 
 
         ?>
 
-        <form novalidate class="contact-homepage" method="post" target="">
+        <form class="contact-homepage" method="post" action="/php/subscribe_success.php">
 
             <div class="heading-with-background">
                 <h2>Subscribe to our newsletter!</h2>
             </div>
             <label for="name" class="first-form-element">
-                <input name="userName" type="text" placeholder="Name">
+                <input required name="userName" type="text" placeholder="Name">
             </label>
 
             <label for="email">
