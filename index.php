@@ -19,7 +19,7 @@ if ($_POST) {
         $platformChoice = $_POST['platformChoice'];
     }
     if (!empty($_POST["message"])) {
-        $message = $_POST['message'];
+        $message = trim($_POST['message']);
     }
     if (count($error) == 0) {
         header("Location: /php/subscribe_success.php?userName=$userName&userEmail=$userEmail");
@@ -169,7 +169,7 @@ include("php/_header.php");
             </select>
         </label>
         <label for="message">
-            <textarea name="message" placeholder="Want to know more about a specific game? Tell us here!"></textarea>
+            <textarea  name="message" placeholder="Want to know more about a specific game? Tell us here!"><?php if (isset($message)) echo $message;?></textarea>
         </label>
         <button type="submit">SUBSCRIBE!</button>
     </form>

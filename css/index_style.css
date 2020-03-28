@@ -359,6 +359,29 @@ button:hover {
 	border:1px solid #52ae32;
 	color:#52ae32;
 }
+.main-subscribe-content {
+	display: flex;
+	justify-content: space-evenly;
+}
+.thank-you {
+	margin-bottom: 16px;
+	margin-top: 16px;
+	margin-left: 16px;
+}
+.user_email_text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.user_email_text p {
+	text-align: center;
+	width: 60%;
+}
+.user_email_text img {
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
 
 /* RESPONSIVE */
 @media all and (max-width:960px) and (orientation:portrait) {
@@ -422,7 +445,26 @@ button:hover {
 	.contact-homepage input, .contact-homepage select, .contact-homepage textarea {
 		width:calc(100% - 30px);
 	}
+	.text-error{
+		width: calc(100% - 30px);
+	}
 	.contact-homepage input::placeholder, .contact-homepage textarea::placeholder {
 		font-size:12px;
+	}
+	.main-subscribe-content {
+		flex-direction: column;
+	}
+	.thank-you {
+		display: flex;
+		justify-content: center;
+		margin-left: 0;
+	}
+	.user_email_text p {
+		margin-top: 0;
+		margin-bottom: 24px;
+	}
+	.user_email_text img {
+		margin-bottom: 0;
+		margin-top: 0;
 	}
 }
